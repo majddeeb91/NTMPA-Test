@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ArticleTableViewCell" rowHeight="143" id="KGk-i7-Jjw" customClass="ArticleTableViewCell" customModule="NTMPA_Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="143"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="143"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lkasdjkljaskldjasjdjasjklkjdkjaskjldjkkjlkljdkklalkjkldskaklsdjkajkkljda" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iL-PQ-e52">
+                        <rect key="frame" x="63" y="15" width="250" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="aGD-1w-rZE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lkasdjkljaskldjasjdjasjklkjdkjaskjldjkkjlkljdkklalkjkldskaklsdjkajkkljda" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0E-7T-lKX">
+                        <rect key="frame" x="63" y="75" width="250" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.3803921569" green="0.3803921569" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rsn-tL-DR7">
+                        <rect key="frame" x="9" y="49" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="29m-E9-ndT"/>
+                            <constraint firstAttribute="width" constant="45" id="QJP-Vk-BEX"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-calender" translatesAutoresizingMaskIntoConstraints="NO" id="154-f5-5Pw">
+                        <rect key="frame" x="211" y="116" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="FDS-k0-jXN"/>
+                            <constraint firstAttribute="height" constant="16" id="cMX-Of-Ddc"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020- 12-16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FoN-BQ-9Qr">
+                        <rect key="frame" x="231" y="116" width="82" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="eOX-ZB-w9W"/>
+                            <constraint firstAttribute="width" constant="82" id="rBG-hE-7Tx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.3803921569" green="0.3803921569" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1iL-PQ-e52" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="3qe-gR-zRD"/>
+                    <constraint firstItem="f0E-7T-lKX" firstAttribute="leading" secondItem="1iL-PQ-e52" secondAttribute="leading" id="AgQ-XM-o4Z"/>
+                    <constraint firstItem="f0E-7T-lKX" firstAttribute="trailing" secondItem="1iL-PQ-e52" secondAttribute="trailing" id="KWE-wn-wqJ"/>
+                    <constraint firstItem="FoN-BQ-9Qr" firstAttribute="centerY" secondItem="154-f5-5Pw" secondAttribute="centerY" id="OlF-AD-c89"/>
+                    <constraint firstAttribute="trailing" secondItem="1iL-PQ-e52" secondAttribute="trailing" constant="4" id="VJn-La-bKs"/>
+                    <constraint firstItem="rsn-tL-DR7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="dDP-OB-Z21"/>
+                    <constraint firstItem="154-f5-5Pw" firstAttribute="top" secondItem="f0E-7T-lKX" secondAttribute="bottom" constant="5" id="g4L-9N-fIT"/>
+                    <constraint firstItem="f0E-7T-lKX" firstAttribute="top" secondItem="1iL-PQ-e52" secondAttribute="bottom" constant="12" id="nMd-io-mrR"/>
+                    <constraint firstAttribute="bottom" secondItem="154-f5-5Pw" secondAttribute="bottom" constant="11" id="o9r-rF-nCJ"/>
+                    <constraint firstItem="FoN-BQ-9Qr" firstAttribute="trailing" secondItem="f0E-7T-lKX" secondAttribute="trailing" id="urB-Vx-tUz"/>
+                    <constraint firstItem="1iL-PQ-e52" firstAttribute="leading" secondItem="rsn-tL-DR7" secondAttribute="trailing" constant="9" id="v4K-MZ-QcV"/>
+                    <constraint firstItem="rsn-tL-DR7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="v6U-vw-eG8"/>
+                    <constraint firstItem="FoN-BQ-9Qr" firstAttribute="leading" secondItem="154-f5-5Pw" secondAttribute="trailing" constant="4" id="ziR-dd-0Je"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="articleImageView" destination="rsn-tL-DR7" id="PQQ-ir-TZk"/>
+                <outlet property="byLineLabel" destination="f0E-7T-lKX" id="uOX-xt-6hC"/>
+                <outlet property="publishedDataLabel" destination="FoN-BQ-9Qr" id="4KO-G1-N5o"/>
+                <outlet property="titleLabel" destination="1iL-PQ-e52" id="JQd-dB-ChZ"/>
+            </connections>
+            <point key="canvasLocation" x="117.39130434782609" y="177.79017857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic-calender" width="11" height="11"/>
+    </resources>
+</document>
